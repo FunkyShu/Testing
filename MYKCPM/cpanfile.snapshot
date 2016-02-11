@@ -1198,3 +1198,12 @@ DISTRIBUTIONS
       parent 0
       perl 5.008001
       utf8 0
+  YAML-LibYAML-0.60
+    pathname: I/IN/INGY/YAML-LibYAML-0.60.tar.gz
+    provides:
+      YAML::LibYAML 0.60
+      YAML::XS 0.60
+      YAML::XS::LibYAML undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001

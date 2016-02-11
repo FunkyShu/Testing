@@ -1,6 +1,7 @@
-requires "Dancer2" => "0.163000";
+requires "Dancer2"   => "0.163000";
+requires "Try::Tiny" => "0";
+requires "YAML::XS"  => "0";
 
-recommends "YAML"             => "0";
 recommends "URL::Encode::XS"  => "0";
 recommends "CGI::Deurl::XS"   => "0";
 recommends "HTTP::Parser::XS" => "0";
